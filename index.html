@@ -1,36 +1,145 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi página web</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@300&family=Orelega+One&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Orelega+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Galería</a></li>
-      <li><a href="#">Contacto</a></li>
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">
+          < Home />
+        </a></li>
+      <li><a href="#">
+          < Contact />
+        </a></li>
+      <li><a href="#">
+          < Works />
+        </a></li>
     </ul>
   </nav>
-  <header>
-    <h1>Bienvenido a mi página web</h1>
-    <p>Esta es una página de prueba para demostrar cómo se pueden utilizar HTML, CSS y JavaScript para crear una página web simple pero elegante.</p>
-  </header>
-  <main>
-    <section>
-      <h2>Galería de fotos</h2>
-      <div class="galeria">
-        <img src="imagen1.jpg" alt="Imagen 1">
-        <img src="imagen2.jpg" alt="Imagen 2">
-        <img src="imagen3.jpg" alt="Imagen 3">
-        </div>
-    </section>
-  </main>
-  <footer>
-    <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
-  </footer>
-  <script src="script.js"></script>
+
+
+
+  <section class="developer-section">
+    <h2>Desarrollador Front-End</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Fundamentos de la Programacion</h3>
+        <p>Los fundamentos de programación son los conceptos esenciales que sientan las bases para el desarrollo de
+          software. Incluyen el entendimiento de variables, estructuras de control, funciones y algoritmos. Estos
+          fundamentos permiten la creación de programas lógicos, eficientes y escalables, y son clave para construir una
+          base sólida en el mundo de la programación.</p>
+
+      </div>
+      <div class="card">
+        <h3>Logica de Programacion</h3>
+        <p>La lógica de programación es fundamental en el desarrollo de software. Permite descomponer problemas,
+          utilizar estructuras de control y razonar de forma lógica para crear soluciones eficientes y funcionales. Es
+          la base del pensamiento algorítmico y la construcción de programas efectivos.</p>
+        <a href="https://www.udemy.com/course/fundamentos-de-la-programacion/" target="_blank">Aqui te dejo un
+          curso que te prodria interesar. </a>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Definir el Area en la que quieres especializarte</h3>
+        <p>Antes de comenzar tu carrera en programación, es crucial centrarte en el área en la que deseas
+          especializarte. Explora diferentes lenguajes de programación, frameworks y tecnologías para comprender sus
+          aplicaciones y demanda en el mercado laboral. Esto te permitirá enfocar tus esfuerzos en adquirir las
+          habilidades y conocimientos necesarios para sobresalir en ese campo específico y maximizar tus oportunidades
+          profesionales en el futuro.</p>
+
+      </div>
+      <div class="card">
+        <h3>HTML</h3>
+        <p>HTML (HyperText Markup Language) es un lenguaje fundamental en el desarrollo web. Aprender HTML como primer
+          paso es crucial, ya que establece los cimientos de la estructura y el contenido de las páginas web. Permite
+          crear elementos como encabezados, párrafos, enlaces e imágenes. Con HTML, se entienden conceptos claves como
+          etiquetas, atributos y jerarquía de elementos. Además, proporciona la base para aprender otros lenguajes como
+          CSS y JavaScript, brindando así una base sólida para construir sitios web interactivos y atractivos.</p>
+        <a href=""></a>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>CSS</h3>
+        <p>CSS es fundamental para los desarrolladores Front-End, ya que les permite crear diseños atractivos y
+          personalizados en sitios web y aplicaciones. Con CSS, pueden aplicar estilos, hacer diseños responsivos,
+          agregar animaciones y optimizar el rendimiento. Es una herramienta poderosa para mejorar la apariencia y la
+          experiencia del usuario en la web.</p>
+        <a href=""></a>
+      </div>
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>JavaScript es un lenguaje de programación versátil y ampliamente utilizado en el desarrollo web. Permite
+          agregar interactividad y funcionalidad a sitios web y aplicaciones. Con JavaScript, los desarrolladores pueden
+          manipular el contenido de una página, responder a eventos del usuario, realizar validaciones de formularios,
+          realizar llamadas a servidores para obtener y enviar datos en tiempo real, crear animaciones, implementar
+          lógica de negocio y mucho más. Es compatible con todos los navegadores modernos y se ejecuta del lado del
+          cliente, lo que significa que no requiere una comunicación constante con el servidor. Además, JavaScript
+          también se utiliza en el desarrollo de aplicaciones móviles, aplicaciones de escritorio y en el campo de la
+          inteligencia artificial. Con su amplia gama de bibliotecas y frameworks, como React, Angular y Vue.js,
+          JavaScript se ha convertido en una herramienta poderosa y esencial para los desarrolladores. Aprender
+          JavaScript abre muchas oportunidades en el mundo de la programación.</p>
+        <a href=""></a>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Librerias Front-End</h3>
+        <p>Las bibliotecas front-end son herramientas preescritas que simplifican y aceleran el desarrollo de interfaces
+          de usuario en la web. Algunas de las más populares son React, Angular y Vue.js. Estas bibliotecas ofrecen
+          componentes reutilizables, enrutamiento, manejo de estado y rendimiento optimizado. Permiten crear interfaces
+          interactivas, escalables y fáciles de mantener, lo que acelera el proceso de desarrollo y mejora la
+          experiencia del usuario. Además, las bibliotecas front-end tienen comunidades activas que brindan soporte,
+          tutoriales y recursos adicionales. Incorporar una biblioteca front-end en tu flujo de trabajo puede ser
+          beneficioso para desarrollar aplicaciones web modernas y eficientes.</p>
+      </div>
+
+      <div class="card">
+        <H3>Depuracion De Codigo</H3>
+        <p>La depuración de código es un proceso crucial en el desarrollo de software. Consiste en identificar, analizar
+          y corregir errores o fallos en el código. Mediante herramientas de depuración, se puede rastrear el flujo de
+          ejecución, inspeccionar variables y encontrar las causas de los problemas. La depuración implica la revisión
+          minuciosa del código, la ejecución paso a paso y la utilización de técnicas de prueba. Es fundamental para
+          asegurar que el software funcione correctamente y cumpla con los requisitos establecidos. La depuración
+          requiere paciencia, habilidades de análisis y conocimiento del entorno de desarrollo. Es una habilidad
+          esencial para los desarrolladores, ya que les permite encontrar y solucionar errores, mejorar el rendimiento y
+          garantizar la calidad del software final.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="two2">
+    <h1>Hola</h1>
+  </section>
 </body>
+
 </html>

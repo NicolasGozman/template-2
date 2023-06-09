@@ -1,49 +1,114 @@
-*{
-    text-decoration: none;
+html {
+  scroll-behavior: smooth;
 }
 
-h1, h2, p{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-}
-nav ul {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  nav a {
-    text-decoration: none;
-    color: rgb(230, 227, 227);
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
-  
-  div img{
-   
-    width: 500px;
-    height: auto;
-  }
-  
-  .galeria {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  
-    
-    
+body {
+  background-image: url('blob-scene-haikei.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 
+
+}
+
+
+
+nav {
+  background-color: #000000;
+  /* Cambia el color de fondo de la NavBar a tu preferencia */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+
+
+}
+
+.logo img {
+  height: 4em;
+  /* Ajusta la altura del logo según tus necesidades */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-family: 'Righteous', cursive;
+  margin: 1em;
+}
+
+.nav-links li {
+  margin-right: 1em;
+  /* Espacio entre las opciones de la NavBar */
+}
+
+.nav-links li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #7D7F7D;
+}
+
+.developer-section {
+  padding: 2em;
+}
+
+.developer-section h2 {
+  color: #ECF0F1;
+  font-family: 'Kanit', sans-serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.card {
+  background-color: #F6D13C;
+  padding: 1em;
+  width: 45%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  color: #000000;
+  margin-bottom: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.card p {
+  color: #000000;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+
+  font-weight: bold;
+
+}
+
+/* Estilo del contenedor del scroll */
+::-webkit-scrollbar {
+  width: 10px;
+  /* Ancho del scroll */
+}
+
+/* Estilo de la barra del scroll */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* Color de fondo de la barra del scroll */
+  border-radius: 5px;
+  /* Radio de borde de la barra del scroll */
+}
+
+/* Estilo del fondo del scroll */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Color de fondo del scroll */
+}
